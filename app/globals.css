@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* Default styles for larger screens */
+.main_div {
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* Styles for screens with a maximum width of 767px (typical for mobile devices) */
+  @media only screen and (max-width: 767px) {
+    .main_div {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
