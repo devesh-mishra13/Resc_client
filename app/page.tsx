@@ -17,8 +17,8 @@ export default function Home() {
       <Navbar />
       <div  className='main_div'>
         <div style={{ position: 'absolute', left: '7%', top: '17%', color: 'black', textAlign: 'left' }}>
-          <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', fontFamily: "'Kotta One', sans-serif" }}>NEWS ARTICLE<br/> SUMMARIZER -</h1>
-          <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', fontFamily: "'Kotta One', sans-serif"}}>DIGEST YOUR<br/> NEWS NOW</h1>
+          <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', fontFamily: "'Kotta One', sans-serif" }}> ALL IN ONE<br/> SUMMARIZER -</h1>
+          {/* <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', fontFamily: "'Kotta One', sans-serif"}}>DIGEST YOUR<br/> NEWS NOW</h1> */}
         </div>
         <div style={{
           position: 'absolute',
@@ -45,7 +45,7 @@ export default function Home() {
           >
             <p style={{ fontSize: '1.5rem',fontFamily: "'Julius Sans One', sans-serif" }}>Your shortcut to news: succinct, relevant, and always up-to-date summaries.</p>
           </div>
-          <Link href="/searchpage" onClick={handleExploreClick} style={{
+          <Link href="/explore" onClick={handleExploreClick} style={{
             padding: '20px',
             background: 'rgba(0, 0, 0, 0.3)',
             borderRadius: '5px',

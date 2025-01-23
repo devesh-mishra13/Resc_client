@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+  }
+  
+  .glass {
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease-in-out, border-color 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  svg {
+    transform: rotate(calc(var(--r) * 1deg));
+    font-size: 2em;
+    fill: white;
+  }
+  
+  .glass:hover {
+    transform: scale(1.2);
+    border-color: #fff;
+  }
+  
+  .glass:hover svg {
+    filter: drop-shadow(0 0 6px white);
+  }
+  

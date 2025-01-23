@@ -110,9 +110,9 @@ export default function Navbar() {
 
         <div className="hidden lg:flex" style={{ fontFamily: "'Julius Sans One', sans-serif",padding:"50px",fontSize:'1.4rem' }}>
           <NavLink to="/">HOME</NavLink>
-          <NavLink to="/about">ABOUT</NavLink>
-          <NavLink to="/team">TEAM</NavLink>
-          <NavLink to="/workflow">WORKFLOW</NavLink>
+          <NavLink to="/searchpage">ARTICLE SUMMERIZER</NavLink>
+          <NavLink to="/audiopage">AUDIO SUMMERIZER</NavLink>
+          <NavLink to="/bookpage">BOOK SUMMERIZER</NavLink>
         </div>
       </div>
     </nav>
